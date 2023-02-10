@@ -13,10 +13,10 @@
                 {{$train->azienda}}
             </h2>
             <p>
-                Stazione Partenza: {{$train->stazione_partenza}} || Stazione Arrivo: {{$train->stazione_arrivo}} 
+                Stazione Partenza: {{$train->stazione_partenza}} -- Stazione Arrivo: {{$train->stazione_arrivo}} 
             </p>
             <p>
-                Orazio Partenza: {{$train->orario_partenza}} || Orario Arrivo: {{$train->orario_arrivo}} 
+                Orazio Partenza: {{$train->orario_partenza}} -- Orario Arrivo: {{$train->orario_arrivo}} 
             </p>
             <p>
                 Codice Treno:  {{$train->codice_treno}} <br>
